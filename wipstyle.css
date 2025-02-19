@@ -161,32 +161,59 @@ section input:hover {
 
 
 .Informacion{
-    flex-direction: row-reverse;
+ flex-direction: row-reverse;
+    
 }
- .portalocite{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       flex-wrap: wrap;
-       gap: 20px;
-       padding: 20px;
-       position: relative;
-       bottom: -200px;
-       background-color: rgb(22, 75, 187);
-       color: white;
-   }
-   
+.portalocite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: -200px;
+    background-color: rgb(22, 75, 187);
+    color: white;
+}
+
 .contact{
-        display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       flex-wrap: wrap;
-       gap: 20px;
-       padding: 20px;
-       position: relative;
-       bottom: -200px;
-       background-color: rgb(22, 75, 187);
-       color: white;
-   }
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    bottom: -200px;
+    background-color: rgb(22, 75, 187);
+    color: white;
+}
+
+.contact img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact a p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Monomakh";
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact a p:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
